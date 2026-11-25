@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Kuliner Bali</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav>
+        <h2>🍜 Kuliner Bali</h2>
+        <div class="menu">
+            <a href="#beranda">Beranda</a>
+            <a href="#jadwal">Jadwal</a>
+            <a href="#tenant">Tenant</a>
+            <a href="#daftar">Daftar</a>
+        </div>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="beranda">
+    <h1>Festival Kuliner Bali 2026</h1>
+    <p>Nikmati berbagai makanan khas Bali dalam satu festival!</p>
+    <a href="#jadwal" class="tombol">Lihat Jadwal</a>
+</section>
+
+<!-- JADWAL -->
+<section id="jadwal">
+    <h2>Jadwal Acara</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Hari</th>
+                <th>Waktu</th>
+                <th>Acara</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Hari 1</td>
+                <td>09.00</td>
+                <td>Pembukaan Festival</td>
+            </tr>
+            <tr>
+                <td>13.00</td>
+                <td>Demo Memasak</td>
+            </tr>
+            <tr>
+                <td>Hari 2</td>
+                <td colspan="2">Lomba Masak Tradisional</td>
+            </tr>
+            <tr>
+                <td>Hari 3</td>
+                <td>10.00</td>
+                <td>Penutupan Festival</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- TENANT -->
+<section id="tenant">
+    <h2>Galeri Tenant</h2>
+    <div class="galeri">
+        <div class="kartu">🍛 <h3>Nasi Ayam</h3></div>
+        <div class="kartu">🍢 <h3>Sate Lilit</h3></div>
+        <div class="kartu">🥘 <h3>Ayam Betutu</h3></div>
+        <div class="kartu">🍜 <h3>Bakso Bali</h3></div>
+        <div class="kartu">🍡 <h3>Jajanan Bali</h3></div>
+        <div class="kartu">🥤 <h3>Es Daluman</h3></div>
+    </div>
+</section>
+
+<!-- FORM -->
+<section id="daftar">
+    <h2>Daftar Tenant</h2>
+    <form>
+        <input type="text" placeholder="Nama Usaha" required>
+
+        <input type="email" placeholder="Email" required>
+
+        <input type="tel" placeholder="No. HP"
+        pattern="[0-9]{10,13}" required>
+
+        <select required>
+            <option value="">Pilih Kategori</option>
+            <option>Makanan</option>
+            <option>Minuman</option>
+            <option>Jajanan</option>
+        </select>
+
+        <button type="submit">Daftar Sekarang</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Festival Kuliner Bali</p>
+</footer>
+
+</body>
+</html>
