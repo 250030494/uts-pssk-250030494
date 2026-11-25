@@ -165,3 +165,18 @@ footer {
 .hero h1 {
     letter-spacing: 1px;
 }
+
+/* COMMIT 3 - TABEL JADWAL */
+table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+td {
+    background: white;
+    text-align: center;
+}
+
+th {
+    padding: 18px;
+}
